@@ -5,8 +5,8 @@ const ImgDiv = styled.img`
     width:100%;
 `
 
-const Img = ({alt, src})=>{
-    return <ImgDiv alt={alt} src={src} loading="lazy" />
+const Img = ({alt, src, ...rest})=>{
+    return <ImgDiv alt={alt} src={src} loading="lazy" {...rest} />
 }
 
 export default Img
