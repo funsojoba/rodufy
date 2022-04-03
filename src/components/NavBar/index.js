@@ -27,7 +27,7 @@ const NavBar = ()=>{
  
                 <NavLinks display={linkState}>
                     <MyLink fontSize="2em" to="/">Register</MyLink>
-                    <MyLink border="solid 1px #EA7052" fontSize="2em"  background="none" to="/about">Login</MyLink>
+                    <MyLink border="solid 1px #EA7052" fontSize="2em"  background="#301446" to="/about">Login</MyLink>
                 </NavLinks>
             </NavLinksWrapper>
 
